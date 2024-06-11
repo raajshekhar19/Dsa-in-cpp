@@ -49,6 +49,7 @@ int mergesort(vector<int> &a, int low, int high){
 
 int numberOfInversions(vector<int> &a, int n){
     return mergesort(a, 0,n-1);
+
 }
 
 
