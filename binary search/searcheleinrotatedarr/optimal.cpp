@@ -32,10 +32,17 @@ int search(vector<int> &arr, int n , int k){
         }
     }
     return -1;
-
-
 }
+/* 
+logic kyy hai??
+arr m mid find kar agar wo target k equal h to return kar
+nhi to
+jo sorted part h usko check kar 
+kyy element h y nhi
+agar h to ok
+nhi h to jo unsorted h usme..
 
+ */
 int main()
 {
     vector<int> arr = {7, 8, 9, 1, 2, 3, 4, 5, 6};
