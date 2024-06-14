@@ -11,8 +11,8 @@ int minrotated(vector<int> &arr, int n){
         int mid = low +(high -low)/2;
         //check if the whole arr is sorted
         if(arr[low]<=arr[high]){
-            int ans = arr[low];
-            return ans;
+            int ans = min(arr[low],ans);
+            break;
         }
         //check which part is sorted
         if(arr[low]<=arr[mid]){
