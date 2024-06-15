@@ -6,7 +6,6 @@ using namespace std;
 int minrotated(vector<int> &arr, int n){
     int low = 0;
     int high = n-1;
-    
     int ans = INT_MAX;
     int idx = -1;
     while(low<=high){
