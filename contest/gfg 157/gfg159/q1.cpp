@@ -2,6 +2,9 @@
 using namespace std;
 
 vector<string> sortitems(int n , vector<string>&items){
+    //ek multiset ka use karo
+        //us multiset m size ke arrording wo arrange hio jayega 
+        //aur lexographically bhi
     map<int,multiset<string>> hsh;
     for(auto it: items){
         int size = it.size();
