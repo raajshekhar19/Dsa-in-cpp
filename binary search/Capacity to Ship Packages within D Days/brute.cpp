@@ -31,8 +31,8 @@ int leastWeightCapacity(vector<int> &weights, int d){
         if (findDays(weights, i) <= d) {
             return i;
         }
-        return -1;
     }
+    return -1;
 }
 
 int main(){
