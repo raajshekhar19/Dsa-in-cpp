@@ -17,7 +17,11 @@ int rowWithMax1s(vector<vector<int>>&arr, int n, int m){
         }
     }
     return maxoneidx;
+
 }
+
+//time complexity -> O(m*n)
+
 int main()
 {
     vector<vector<int>> matrix = {{1, 1, 1}, {0, 0, 1}, {0, 0, 0}};
