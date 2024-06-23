@@ -1,6 +1,3 @@
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -36,4 +33,3 @@ int main()
     };
     searchElement(matrix, 8) == true ? cout << "true\n" : cout << "false\n";
 }
-
