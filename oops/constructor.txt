@@ -1,0 +1,12 @@
+when we write hero mukesh;
+then mukesh.hero(); is called 
+
+
+copy constructor
+
+hero s(70,'c');
+s.print();
+
+copy constructor
+hero r(s);
+r.print();
