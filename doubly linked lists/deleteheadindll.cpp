@@ -33,6 +33,19 @@ Node *convertToDoublyLL(vector<int> & arr){
     return head;
 }
 
+Node * deletehead(Node * head){
+if(head == NULL || head->next==NULL){
+    return NULL;
+}
+
+    Node * prev = head;
+    head = head->next;
+    head->back = nullptr;
+    prev->next = nullptr;
+    delete prev;
+    return head;
+}
+
 void print(Node * head){
     Node * temp = head;
     while(temp){
@@ -45,6 +58,7 @@ int main(){
     vector<int> arr = {12,5,8};
     int n = arr.size();
     Node  * head = convertToDoublyLL(arr);
+    head = deletehead(head);
     print(head);
 
-}
+}  
