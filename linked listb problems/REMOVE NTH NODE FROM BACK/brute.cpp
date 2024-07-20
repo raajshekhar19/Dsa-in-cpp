@@ -1,3 +1,8 @@
+
+// time complexity - > O(n + n-k)
+//space complexity - > O(1)
+
+
 /* ListNode* removeNthFromEnd(ListNode* head, int n) {
 
         int length = 0;
