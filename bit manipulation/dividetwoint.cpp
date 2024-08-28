@@ -18,6 +18,7 @@ using namespace std;
         }
         if(ans==(1<<31) && sign==true) return INT_MAX;
         if(ans==(1<<31) && sign==false) return INT_MIN;
+        cout <<ans;
         return (sign?ans:-ans);
     }
 
