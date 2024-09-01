@@ -31,7 +31,7 @@ class Stack{
             cout<<"Stack underflow";
         }
     }
-    int peak(){
+    int peek(){
         if(top>=0 && top<size){
             return arr[top];
         }
@@ -58,7 +58,7 @@ int main(){
     st.push(23);
     st.push(2);
     st.push(4);
-    cout<<st.peak();
+    cout<<st.peek();
 
 
 
