@@ -15,7 +15,7 @@ vector<int>nge(vector<int>qn){
             }
             ans.push_back(st.top());
         }
-        st.push_back(arr[i]);
+        st.push_back(ans[i]);
     }
     return ans;
 }
