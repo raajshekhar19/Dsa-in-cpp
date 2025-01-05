@@ -2,6 +2,7 @@
 using namespace std;
 
 class node{
+    public:
     int val;
     node*right;
     node*left;
@@ -17,8 +18,8 @@ int height(node*root, int &dia){
     if(root==NULL){
         return 0;
     }
-    int lh = height(root,dia);
-    int rh = height(root,dia);
+    int lh = height(root->left,dia);
+    int rh = height(root->right,dia);
     dia = max(dia,lh+rh);
     return 1 + max(lh,rh);
 }
